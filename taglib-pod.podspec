@@ -40,7 +40,7 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.osx.deployment_target  = '10.12'
+  s.osx.deployment_target  = '10.12'
   s.source       = { :git => "https://github.com/cmicali/taglib-pod.git", :tag => "master" }
 
 
