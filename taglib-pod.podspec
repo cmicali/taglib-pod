@@ -26,7 +26,6 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   s.homepage     = "http://taglib.github.io/"
   s.license      = "LGPL"
 
-
   s.author             = { "Scott Wheeler" => "wheeler@kde.org" ,
     "Lukas Lalinsky" => "lalinsky@gmail.com",
     "Ismael Orenstein" => "orenstein@kde.org",
@@ -41,7 +40,7 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.osx.deployment_target  = '10.12'
+  # s.osx.deployment_target  = '10.12'
   s.source       = { :git => "https://github.com/cmicali/taglib-pod.git", :tag => "master" }
 
 
