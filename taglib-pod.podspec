@@ -53,7 +53,7 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "taglib/**/*.{h,cpp}","taglib_config.h"
+  s.source_files  = "taglib/**/*.{h,cpp}", "taglib_config.h"
 
 
 end
