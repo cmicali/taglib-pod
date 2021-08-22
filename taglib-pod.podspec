@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "taglib-pod"
-  s.version      = "1.11.1"
+  s.version      = "1.12"
   s.summary      = "TagLib Audio Meta-Data Library."
 
   s.description  = <<-DESC
