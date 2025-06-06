@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "taglib-pod"
-  s.version      = "1.12"
+  s.version      = "2.1"
   s.summary      = "TagLib Audio Meta-Data Library."
 
   s.description  = <<-DESC
@@ -53,6 +53,5 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #
 
   s.source_files  = "taglib/**/*.{h,cpp}", "taglib_config.h"
-
 
 end
