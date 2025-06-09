@@ -53,5 +53,9 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #
 
   s.source_files  = "taglib/**/*.{h,cpp}", "taglib_config.h"
+ 
+  s.pod_target_xcconfig = {
+    "CLANG_CXX_LANGUAGE_STANDARD" => "c++17"
+  }
 
 end
