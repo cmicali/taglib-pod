@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "taglib-pod"
-  s.version      = "2.1"
+  s.version      = "2.2"
   s.summary      = "TagLib Audio Meta-Data Library."
 
   s.description  = <<-DESC
@@ -40,7 +40,7 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.osx.deployment_target  = '10.12'
+  s.osx.deployment_target  = '10.13'
   s.source       = { :git => "https://github.com/cmicali/taglib-pod.git", :tag => "master" }
 
 
